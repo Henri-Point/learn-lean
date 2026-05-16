@@ -1,0 +1,14 @@
+name = "learn-lean"
+version = "0.1.0"
+defaultTargets = ["learn-lean"]
+
+[[lean_lib]]
+name = "LearnLean"
+
+[[lean_exe]]
+name = "learn-lean"
+root = "Main"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
